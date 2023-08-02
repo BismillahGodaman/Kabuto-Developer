@@ -1,94 +1,73 @@
 {
-"redirect" : {
-
-// untuk merubah menjadi mode mp3 - panggil link ini via offline / json - "file:///android_asset/music/playlist.html"
-// pastikan mode offline mp3 true jika merubah ke mode mp3
-// https://kabinetdeveloperexample.blogspot.com/2020/12/optimasi-blogger.html
-
-"HOMEURL" : "file:///android_asset/music/playlist.html",
-
-// testing server json yang dipakai
-"JSON_POPUP_WAIT" : "Apliasi Ready",
-
-// Redirect ke apps lain 
-"REDIRECT_TRAFFIC" : false,
-"LINK_REDIRECT" : "https://play.google.com/store/apps/developer?id=devname",
-
-// main ads ke backup ads 
-"MODE_BACKUP_ADS" : true,
-"MODE_NO_ADS" : false,
-"MODE_TES_IKLAN_FAN_ADMOB_UNITY_STARTAPP_APPDODEAL" : false,
-
-//     mode pengaturan iklan
-//     Mode ADMOB       Admob backup Unity Backup Startapp
-//     Mode FAN         FAN backup Unity Backup Startapp
-//     Mode UNITY       Unity backup Startapp
-//     Mode APPLOVIN    Applovin backup Unity Backup Startapp
-
-"PENGATURAN_IKLAN_BANNER" : "ADMOB",
-"PENGATURAN_IKLAN_INTER" : "ADMOB",
-"PENGATURAN_IKLAN_NATIVE" : "ADMOB",
-
-"INTER_COUNT" : "20",
-
-"ENABLE_STRAP" : true,
-"ENABLE_STRAP_SPLAHSCREEN" : false,
-
-"ADS_ON_EXIT_DIALOG" : false, // WARNING - CTR MENINGKAT
-
-"MODE_OFFLINE_MP3" : false,
-"ENABLE_STICKY_NOTIFICATION" : true,
-
-"STARTAPPID" : "201365479",
-
-"ADMOB_BANNER" : "ca-app-pub-3940256099942544/6300978111",
-"ADMOB_INTER" : "ca-app-pub-3940256099942544/1033173712",
-"ADMOB_NATIV" : "ca-app-pub-3940256099942544/2247696110",
-
-"HPK_ALIENDROID" : "kuota data 30gb",
-"HPK_ADMOB1" : "Kuota Data",
-"HPK_ADMOB2" : "Bank Jenius",
-"HPK_ADMOB3" : "Simpati",
-"HPK_ADMOB4" : "Telkomsel",
-"HPK_ADMOB5" : "Donasi",
-
-"FAN_BANNER" : "YOUR_PLACEMENT_ID",
-"FAN_INTER" : "YOUR_PLACEMENT_ID",
-"FAN_NATIVE" : "YOUR_PLACEMENT_ID",
-
-"UNITY_BANNER" : "banner",
-"UNITY_INTERSTITIAL" : "inter",
-"UNITY_GAME_ID" : "4114625",
-
-"APPLOVIN_BANNER_MAX_ID" : "71f5faf4df08917c",
-"APPLOVIN_INTERSTITIAL_MAX_ID" : "4711e1718612d7dc",
-
-"BUTTON_START" : "START",
-"BUTTON_SHARE" : "SHARE TO FRIEND",
-"BUTTON_RATING" : "RATING NOW",
-
-"EXIT_POPUP_DIALOG" : "
-Agar Kami lebih semangat mengembangkan Aplikasi ini
-
-Bantu kami dengan rating bingtang 5 ya 
-
-Klik tombol rating 
-",
-"RATE_BUTTON" : "Rate 5 Stars",
-"LATER_BUTTON" : "Later",
-"ENABLE_SHARE_BUTTON" : true,
-"SHARE_TXT" : "
-this app is awesome 
-
-you need try to donwload this app
-i.ve download and so much happy
-
-",
-
-"MORE_BUTTON" : "Share Via WhatsApp",
-// Jika share button TRUE maka tombol MORE berubah SHARE
-// isi url more apps jika ENABLE_SHARE_BUTTON  is false
-"URL_MORE_APPS" : "https://play.google.com/store/apps/developer?id=devname"
-
- }
+  "Ads": [
+    {
+      "select_main_ads": "ADMOB",
+      "select_backup_ads":"APPLOVIN-D",
+      "main_ads_banner": "ca-app-pub-3940256099942544/6300978111x",
+      "main_ads_intertitial":"ca-app-pub-3940256099942544/1033173712x",
+      "main_ads_natives":"",
+      "main_ads_rewards":"",
+      "backup_ads_natives":"",
+      "backup_ads_banner":"db4d5e8718b97d78",
+      "backup_ads_intertitial":"518cd97722c60b52",
+      "backup_ads_rewards":"",
+      "open_ads_admob":"",
+      "open_ads_alien":"",
+      "open_ads_max" :"",
+      "open_ads_wortise":"",
+      "interval_intertitial": 5,
+      "initialize_sdk":"107355779",
+      "initialize_sdk_backup_ads":"",
+      "high_paying_keyword_1": "",
+      "high_paying_keyword_2": "",
+      "high_paying_keyword_3": "",
+      "high_paying_keyword_4": "",
+      "high_paying_keyword_5": "",
+      "status_app": "0",
+      "link_redirect": "https://"
+    }
+  ],
+ "Categories": [
+    {
+      "id": 1,
+      "name_category": "Meggy Z",
+      "image": "file:///android_asset/image/meggy.jpg"
+    }
+  ],
+  "Data": [
+    { "id":1,  "name_category": "Meggy Z", "title": "Benang Biru", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/benang_biru.mp3", "lyrics": " "},
+    { "id":2,  "name_category": "Meggy Z", "title": "Berakhir Pula", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/berakhir_pula.mp3", "lyrics": " "},
+    { "id":3,  "name_category": "Meggy Z", "title": "Berdarah Lagi", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/berdarah_lagi.mp3", "lyrics": " "},
+    { "id":4,  "name_category": "Meggy Z", "title": "Biarkanlah", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/biarkanlah.mp3", "lyrics": " "},
+    { "id":5,  "name_category": "Meggy Z", "title": "Cinta Hitam", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/cinta_hitam.mp3", "lyrics": " "},
+    { "id":6,  "name_category": "Meggy Z", "title": "Darah Biru", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/darah_biru.mp3", "lyrics": " "},
+    { "id":7,  "name_category": "Meggy Z", "title": "Duka Dalam Cinta", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/duka_dalam_cinta.mp3", "lyrics": " "},
+    { "id":8,  "name_category": "Meggy Z", "title": "Ganjal Batu", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/ganjal_batu.mp3", "lyrics": " "},
+    { "id":9,  "name_category": "Meggy Z", "title": "Gubuk Bambu", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/gubuk_bambu.mp3", "lyrics": " "},
+    { "id":10,  "name_category": "Meggy Z", "title": "Ingat Waktu Susah", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/ingat_waktu_susah.mp3", "lyrics": " "},
+    { "id":11,  "name_category": "Meggy Z", "title": "Jandaku", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/jandaku.mp3", "lyrics": " "},
+    { "id":12,  "name_category": "Meggy Z", "title": "Jangan Mengharap", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/jangan_mengharap.mp3", "lyrics": " "},
+    { "id":13,  "name_category": "Meggy Z", "title": "Jeritan Hati", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/jeritan_hati.mp3", "lyrics": " "},
+    { "id":14,  "name_category": "Meggy Z", "title": "Kau Kekiri Aku Ke Kanan", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/kau_kekiri_aku_ke_kanan.mp3", "lyrics": " "},
+    { "id":15,  "name_category": "Meggy Z", "title": "Rujuk", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/rujuk.mp3", "lyrics": " "},
+    { "id":16,  "name_category": "Meggy Z", "title": "Lagi - Lagi Kamu", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/lagi_-_lagi_kamu.mp3", "lyrics": " "},
+    { "id":17,  "name_category": "Meggy Z", "title": "Lebih Baik Sakit Gigi", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/lebih_baik_sakit_gigi.mp3", "lyrics": " "},
+    { "id":18,  "name_category": "Meggy Z", "title": "Lembur Kuring", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/lembur_kuring.mp3", "lyrics": " "},
+    { "id":19,  "name_category": "Meggy Z", "title": "Ling Ling", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/ling_ling.mp3", "lyrics": " "},
+    { "id":20,  "name_category": "Meggy Z", "title": "Mahal", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/mahal.mp3", "lyrics": " "},
+    { "id":21,  "name_category": "Meggy Z", "title": "Mata Air Cinta", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/mata_air_cinta.mp3", "lyrics": " "},
+    { "id":22,  "name_category": "Meggy Z", "title": "Penantian", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/penantian.mp3", "lyrics": " "},
+    { "id":23,  "name_category": "Meggy Z", "title": "Penghinaan", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/penghinaan.mp3", "lyrics": " "},
+    { "id":24,  "name_category": "Meggy Z", "title": "Permohonan", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/permohonan.mp3", "lyrics": " "},
+    { "id":25,  "name_category": "Meggy Z", "title": "Sakit Hati", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/sakit_hati.mp3", "lyrics": " "},
+    { "id":26,  "name_category": "Meggy Z", "title": "Sedih Sekali", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/sedih_sekali.mp3", "lyrics": " "},
+    { "id":27,  "name_category": "Meggy Z", "title": "Selamat Tinggal Kekasih", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/selamat_tinggal_kekasih.mp3", "lyrics": " "},
+    { "id":28,  "name_category": "Meggy Z", "title": "Senyum Membawa Luka", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/senyum_membawa_luka.mp3", "lyrics": " "},
+    { "id":29,  "name_category": "Meggy Z", "title": "Siksa Kubur", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/siksa_kubur.mp3", "lyrics": " "},
+    { "id":30,  "name_category": "Meggy Z", "title": "Sinar Ayu", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/sinar_ayu.mp3", "lyrics": " "},
+    { "id":31,  "name_category": "Meggy Z", "title": "Susah Hati", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/susah_hati.mp3", "lyrics": " "},
+    { "id":32,  "name_category": "Meggy Z", "title": "Takut Sengsara", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/takut_sengsara.mp3", "lyrics": " "},
+    { "id":33,  "name_category": "Meggy Z", "title": "Terlanjur Basah", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/terlanjur_basah.mp3", "lyrics": " "},
+    { "id":34,  "name_category": "Meggy Z", "title": "Tiada Berdaya ", "image": "file:///android_asset/image/meggy.jpg", "link_mp3":"mp3/tiada_berdaya.mp3", "lyrics": " "}
+  ]
 }
